@@ -22,19 +22,19 @@ int main()
     int choice,num1,num2,i;
     while(1)
     {
-        cout<<"\n1. ADD"<<endl;
-        cout<<"2. SUBTRACT"<<endl;
-        cout<<"3. MULTIPLY"<<endl;
-        cout<<"4. DIVIDE (get quotient and remainder)"<<endl;
-        cout<<"5. SQUARE ROOT"<<endl;
-        cout<<"6. POWER(a number to power other number)"<<endl;
-        cout<<"7. LCM"<<endl;
-        cout<<"8. HCF"<<endl;
-        cout<<"9. FACTORIAL"<<endl;
-        cout<<"10. FACTORS"<<endl;
-        cout<<"11. nPr"<<endl;
-        cout<<"12. EXIT"<<endl;
-        cout<<"\nEnter your choice : ";
+        cout<<"\n1. ADD"<<endl
+        <<"2. SUBTRACT"<<endl
+        <<"3. MULTIPLY"<<endl
+        <<"4. DIVIDE (get quotient and remainder)"<<endl
+        <<"5. SQUARE ROOT"<<endl
+        <<"6. POWER(a number to power other number)"<<endl
+        <<"7. LCM"<<endl
+        <<"8. HCF"<<endl
+        <<"9. FACTORIAL"<<endl
+        <<"10. FACTORS"<<endl
+        <<"11. nPr"<<endl
+        <<"12. EXIT"<<endl
+        <<"\nEnter your choice : ";
         cin>>choice;
 
         switch(choice)
