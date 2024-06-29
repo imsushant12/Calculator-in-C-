@@ -1,7 +1,7 @@
 //by Sushant Gaurav
 
 #include <bits/stdc++.h>
-#include <math.h>
+#include <cmath>
 
 using namespace std;
 
@@ -20,7 +20,7 @@ int nPr(int n, int r)
 int main()
 {
     int choice,num1,num2,i;
-    while(1)
+    while(true)
     {
         cout<<"\n1. ADD"<<endl
         <<"2. SUBTRACT"<<endl
@@ -105,7 +105,7 @@ int main()
                     }
                     else
                         ++maximum;
-                }while(1);
+                }while(true);
 
                 break;
             }
@@ -174,13 +174,10 @@ int main()
         case 12:
             {
                 exit(0);
-                break;
             }
 
         default :
             cout<<"\nINVALID CHOICE"<<endl;
         }
     }
-
-    return 0;
 }
